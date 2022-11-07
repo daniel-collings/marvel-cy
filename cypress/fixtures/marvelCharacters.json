@@ -3,7 +3,7 @@
     {
       "id": 231,
       "name": "Clint",
-      "meter": "71",
+      "meter": 74,
       "heroName": "Hawkeye",
       "img": "https://www.freeiconspng.com/thumbs/hawkeye-png/hawkeye-png-2.png"
     },
@@ -17,35 +17,42 @@
     {
       "id": 16,
       "name": "Thor Son of Odin",
-      "meter": "78",
+      "meter": 65,
       "heroName": "Thor",
       "img": "https://pngfolio.com/images/all_img/copy/1657962633Thor%20Stormbreaker,%20HD%20Png%20Download.png"
     },
     {
       "id": 51,
       "name": "Loki Prince of Asgaard",
-      "meter": "75",
+      "meter": 39,
       "heroName": "Loki",
       "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/dbi736n-47e2026d-a245-4178-b8a1-add47fb6bc7d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkYmMxOTM1LTY1NDItNGVlMy04MjJmLTEzNWNmZjRiYTYyY1wvZGJpNzM2bi00N2UyMDI2ZC1hMjQ1LTQxNzgtYjhhMS1hZGQ0N2ZiNmJjN2QucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EpDr_4hqSHhHU-ELwBHvObEIPMidU_NwNWgnrfeMk-I"
     },
     {
       "id": 41,
       "name": "Bruce Banner",
-      "meter": "91",
+      "meter": 68,
       "heroName": "Hulk",
       "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8c361645-11b7-4abc-8219-1d7a2882801e/ddrsbrf-b809650e-1c69-499a-aa12-5abf0e8016ce.png/v1/fill/w_527,h_1000,strp/professor_hulk_png_by_darthspidermaul_ddrsbrf-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAwMCIsInBhdGgiOiJcL2ZcLzhjMzYxNjQ1LTExYjctNGFiYy04MjE5LTFkN2EyODgyODAxZVwvZGRyc2JyZi1iODA5NjUwZS0xYzY5LTQ5OWEtYWExMi01YWJmMGU4MDE2Y2UucG5nIiwid2lkdGgiOiI8PTUyNyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.rZRy8iIrmaREXgRAkNwSzRv95BwyV3OTLYo7UbSp6w0"
     },
     {
+      "id": 122,
+      "name": "Jen Walters",
+      "meter": 63,
+      "heroName": "She Hulk",
+      "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/94049ff7-d985-4b9e-ad3c-c7a7a842f5a6/dfbji41-80cc90d8-9ca0-41d0-8044-3f4cfe7065a3.png/v1/fill/w_372,h_671,strp/she_hulk_transparent__by_wookiekookie_dfbji41-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjcxIiwicGF0aCI6IlwvZlwvOTQwNDlmZjctZDk4NS00YjllLWFkM2MtYzdhN2E4NDJmNWE2XC9kZmJqaTQxLTgwY2M5MGQ4LTljYTAtNDFkMC04MDQ0LTNmNGNmZTcwNjVhMy5wbmciLCJ3aWR0aCI6Ijw9MzcyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.qCNrJuwR9PvtOmtD4Um8dBkDiI_OTdZxZ0qnOHRgi2U"
+    },
+    {
       "id": 14,
       "name": "Tony Stark",
-      "meter": "59",
+      "meter": 88,
       "heroName": "Iron Man",
       "img": "https://www.freeiconspng.com/thumbs/iron-man-png/iron-man-png-10.png"
     },
     {
       "id": 12,
       "name": "Stephen Strange",
-      "meter": "84",
+      "meter": 94,
       "heroName": "Dr Strange",
       "img": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/87d16331-e819-491d-82f7-cb7e169fba62/df6uiga-b17d914c-7ff0-4672-8400-7b850f3fc67e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg3ZDE2MzMxLWU4MTktNDkxZC04MmY3LWNiN2UxNjlmYmE2MlwvZGY2dWlnYS1iMTdkOTE0Yy03ZmYwLTQ2NzItODQwMC03Yjg1MGYzZmM2N2UucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.NMA658hNyPIkYAMh26NjmkbqkzrzOg5bh5RoeajqwH4"
     }

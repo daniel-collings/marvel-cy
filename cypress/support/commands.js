@@ -1,3 +1,9 @@
+/// <reference types="cypress" />
+import marvel from '../fixtures/marvelCharacters.json'
+
+export{}
+
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
@@ -8,6 +14,7 @@
 // https://on.cypress.io/custom-commands
 // ***********************************************
 //
+
 //
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
@@ -23,3 +30,15 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+// eslint-disable-next-line no-undef
+// Cypress.on('uncaught:exception', (err, runnable) => {
+//     // returning false here prevents Cypress from
+//     // failing the test
+//     return false
+// })
+
+Cypress.Commands.add('interceptGetCharacters', () => {
+    cy.intercept('http://localhost:8080/characters/', marvel.characters)
+})
+

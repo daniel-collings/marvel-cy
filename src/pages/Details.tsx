@@ -1,32 +1,20 @@
 import HeroForm from "components/HeroForm"
-import React from "react"
+import useMarvelCharacters from "hooks/useMarvelCharacters"
 import { useLocation } from "react-router-dom"
-import marvel from '../data/marvelCharacters.json'
+import { Character } from "types/data"
 
 export default function Details() {
-    const { pathname } = useLocation()
-    const [heroData, setHeroData] = React.useState<any | undefined>()
+	const { pathname } = useLocation()
+	const { data } = useMarvelCharacters()
 
-    function getHeroes(param: string) {
-        if (!param) {
-            setHeroData(undefined)
-        }
-        else {
-            const hero = marvel.characters.find(f => `/${f.heroName.replaceAll(" ", "")}` === param)
-            setHeroData(hero)
-        }
-    }
+	const hero = data.find((f: Character) => `/${f.id}` === pathname)
 
-    React.useEffect(() => {
-        getHeroes(pathname)
-    }, [pathname])
-
-    return (
-        <div data-test={`marvel-container`}>
-            <div data-test={`marvel-${pathname}`}>
-                <h2>{pathname}</h2>
-                <HeroForm data={heroData} />
-            </div>
-        </div>
-    )
+	return (
+		<div data-test={"marvel-container"}>
+			<h2>{hero?.heroName}</h2>
+			<div data-test={`marvel-${hero?.heroName}`} className='details-layout'>
+				<HeroForm />
+			</div>
+		</div>
+	)
 }

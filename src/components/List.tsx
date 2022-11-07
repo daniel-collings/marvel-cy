@@ -1,9 +1,18 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import { Character } from "types/data"
 
-export default function List({ label, array }: any) {
-    return (
-        <ul data-test={`list-${label}`}>
-            {array.map((o: any, i: any) => <li data-test={`${label}-listItem-${o.heroName}`} key={i}><Link to={o.heroName.replaceAll(' ', '')}>{o.heroName}</Link></li>)}
-        </ul>
-    )
+type Item<T> = T
+
+interface IList{
+	label: string
+	array: Item<Character>[]
+}
+
+
+export default function List({ label, array }: IList) {
+	return (
+		<ul data-test={`list-${label}`}>
+			{array.map((o: Character, i: number) => <li data-test={`${label}-listItem-${o.heroName}`} key={i}><Link to={`${o.id}`}>{o.heroName}</Link></li>)}
+		</ul>
+	)
 }

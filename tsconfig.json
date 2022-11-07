@@ -2,11 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "baseUrl": "./src",
-    "paths": {
-      "test-utils": [
-        "./test-utils"
-      ]
-    },
     "lib": [
       "dom",
       "dom.iterable",
@@ -28,7 +23,7 @@
   },
   "files": [
     "src/setupTests.js",
-    "cypress.config.js"
+    "cypress.config.ts"
   ],
   "include": [
     "src/**/*",
